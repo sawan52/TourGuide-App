@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:minHeight="88dp">
+
+    <ImageView
+        android:id="@+id/location_image"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/location_image"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/location_address"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@id/location_name"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

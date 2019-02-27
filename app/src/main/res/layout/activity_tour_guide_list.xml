@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TourGuideList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:contentDescription="@string/todo1"
+            android:scaleType="fitXY"
+            android:src="@drawable/architectural" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9C27B0">
+
+            <TextView
+                android:id="@+id/architectural"
+                style="@style/Category_style"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/architectural_buildings" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:contentDescription="@string/todo2"
+            android:scaleType="fitXY"
+            android:src="@drawable/museum" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4">
+
+            <TextView
+                android:id="@+id/museum"
+                style="@style/Category_style"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/museums" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:contentDescription="@string/todo3"
+            android:scaleType="fitXY"
+            android:src="@drawable/nature_park" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F44336">
+
+            <TextView
+                android:id="@+id/nature_parks"
+                style="@style/Category_style"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/nature_and_parks" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:contentDescription="@string/todo4"
+            android:scaleType="fitXY"
+            android:src="@drawable/shopping_mall" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E91E63">
+
+            <TextView
+                android:id="@+id/shopping_mall"
+                style="@style/Category_style"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/shopping_malls" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:contentDescription="@string/todo5"
+            android:scaleType="fitXY"
+            android:src="@drawable/water_park" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFFFFF" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50">
+
+            <TextView
+                android:id="@+id/water_parks"
+                style="@style/Category_style"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/water_parks" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

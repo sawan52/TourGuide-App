@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="welcome_to_lucknow">Welcome to Lucknow</string>
+    <string name="tour_guide_app">Tour Guide App</string>
+    <string name="lets_go">Let\'s Go!</string>
+    <string name="copyright">Sawan Kumar Singh 2018 ©, All Rights Reserved</string>
+    <string name="todo1">TODO</string>
+    <string name="architectural_buildings">Architectural Buildings</string>
+    <string name="museums">Museums</string>
+    <string name="nature_and_parks">Nature and Parks</string>
+    <string name="shopping_malls">Shopping Malls</string>
+    <string name="water_parks">Water Parks</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+</resources>
