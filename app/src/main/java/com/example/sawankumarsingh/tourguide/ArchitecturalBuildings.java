@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class ArchitecturalBuildings extends AppCompatActivity {
     // create a variable for ActionBar
     ActionBar actionBar;
-
+// Adding to GitHub
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
